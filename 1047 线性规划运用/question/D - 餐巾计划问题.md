@@ -1,4 +1,4 @@
-# E : 餐巾计划问题
+# D : 餐巾计划问题
 
 Time Limit: `1 Sec`,   Memory Limit: `128 Mb`
 

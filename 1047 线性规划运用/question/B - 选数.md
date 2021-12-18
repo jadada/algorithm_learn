@@ -1,4 +1,4 @@
-# C : 选数
+# B : 选数
 
 Time Limit: `1 Sec`,   Memory Limit: `128 Mb`
 

@@ -47,4 +47,4 @@ Time Limit: `1 Sec`,  Memory Limit: `128 Mb`
 5
 ```
 
-[参考代码](../solution/1050%20B.cpp)
+[参考代码](../solution/B.cpp)

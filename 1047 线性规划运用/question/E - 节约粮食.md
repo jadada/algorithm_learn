@@ -1,4 +1,4 @@
-# F : 节约粮食
+# E : 节约粮食
 
 Time Limit: `1 Sec`,   Memory Limit: `128 Mb`
 

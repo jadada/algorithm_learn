@@ -1,4 +1,4 @@
-# D : 招募员工
+# C : 招募员工
 
 Time Limit: `1 Sec`,   Memory Limit: `128 Mb`
 
