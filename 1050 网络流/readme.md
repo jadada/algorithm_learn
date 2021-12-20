@@ -4,4 +4,4 @@
 
 - [B - 春秋战国运输线](question/B%20-%20春秋战国运输线.md)：[参考代码](solution/1050%20B.cpp)
 
-<!-- - [C - 最小割点](question/C%20-%20最小割点.md)：[参考代码] -->
+- [C - 最小割点](question/C%20-%20最小割点.md)：[参考代码](solution/C.cpp)
