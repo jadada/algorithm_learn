@@ -7,7 +7,7 @@ using namespace std;
 int partition( vector<int> &nums, int low, int high ) {
     int temp = nums[ low ];
     while ( low < high ) {
-        while ( low < high && nums[ high ] < teZmp )
+        while ( low < high && nums[ high ] < temp )
             --high;
         if ( low < high ) {
             nums[ low ] = nums[ high ];

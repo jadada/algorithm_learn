@@ -2,7 +2,7 @@
 E - 01饭卡
 
 reference:
-https://www.cnblogs.com/-Ackerman/p/12253268.html
+https://blog.51cto.com/u_12312066/3632308
 https://docs.qq.com/pdf/DRHdIcGltTllSVVVp
  */
 #include <bits/stdc++.h>

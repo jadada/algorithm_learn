@@ -1,5 +1,14 @@
 /*
 B - 吃奶酪
+
+reference:
+https://blog.51cto.com/u_3044148/3349412
+
+状态压缩：
+一维：代表已经走过的节点有哪些，是一个二进制转为十进制的数字，最终表现为十进制.
+    每一位代表一个奶酪，比如一共有3个奶酪，f[(101)二进制]
+=f[5]，表示1号和3号奶酪吃完了，2号没有吃 二维：代表当前的出发点
+值：f[i][j]表示如果以前计算过在以第j个位置出发，在前面已经完成i这种二进制表示法的节点完成情况下，最短的距离是多少
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -13,14 +22,7 @@ double min_dist = 0x3f3f3f3f;
 vector<double> X( MAXN );
 vector<double> Y( MAXN );
 vector<bool> visited( MAXN );
-
-//状态压缩：https://blog.51cto.com/u_3044148/3349412
-//一维：代表已经走过的节点有哪些，是一个二进制转为十进制的数字，最终表现为十进制.
-// 每一位代表一个奶酪，比如一共有3个奶酪，f[(101)二进制] =f[5]
-// 表示1号和3号奶酪吃完了，2号没有吃 二维：代表当前的出发点 值：f[i][j]
-// 如果以前计算过在以第j个位置出发，在前面已经完成i这种二进制表示法的节点完成情况下，最短的距离是多少
 double dp[ 1 << MAXN ][ MAXN ];
-
 vector<vector<double>> Distance( MAXN, vector<double>( MAXN ) );
 
 double get_distance( double x1, double y1, double x2, double y2 ) {

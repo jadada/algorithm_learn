@@ -12,7 +12,7 @@ Time Limit: `1 Sec`, Memory Limit: `128 Mb`
 
 第一行输入N，第二行输入 $N$ 个数字 $A_i$，第三行输入N个数字 $B_i$
 
-- $1 leq N \leq 100$
+- $1 \leq N \leq 100$
 - $1 \leq A_i \leq B_i \leq 1000$
 - 所有输入均为int
 
